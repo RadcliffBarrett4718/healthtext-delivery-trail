@@ -1,0 +1,9 @@
+[project]
+name = "healthtext-delivery-trail"
+version = "0.1.0"
+description = "Patient-safe appointment SMS reminders with delivery events and shared operational metrics."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

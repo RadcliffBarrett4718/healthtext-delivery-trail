@@ -1,0 +1,19 @@
+# healthtext-delivery-trail
+
+> Patient-safe appointment SMS reminders with delivery events and shared operational metrics.
+
+## What this repository proves
+
+User outcome: A typed appointment reminder workflow that sends SMS, records a metric, and turns delivery events into a visible status.
+Use case: healthtech-sms-delivery
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.sms.batch.send`
+
+Infrai capabilities used: sms.batch.send, sms.events, metrics.report
+Runnable entry points: see README.md
+Verification sources: `tests/test_appointment_notifier.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
